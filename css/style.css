@@ -1,0 +1,244 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   padding: 0;
+   margin: 0;
+}
+
+.common__container {
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+/* Values that used a lot of times */
+
+:root {
+   --text__color: #48555B;
+   --light__blue: #00A4E5;
+   --dark__blue: #141A20;
+   --almost__black: #171819;
+}
+
+.text-h2 {
+   color: #48555B;
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   letter-spacing: 2.306px;
+}
+
+.text-p {
+   color: #48555B;
+   font-family: "Open Sans", sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 23px;
+   letter-spacing: 0.188px;
+}
+
+/* Values that used a lot of times */
+
+/* Coding style for header start */
+
+.header {
+   min-height: 800px;
+   background-image: url(../img/main__bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.header__container-inner {
+   text-align: center;
+}
+
+.header__container-logo {
+   padding-top: 41px;
+   margin-bottom: 317px;
+}
+
+.header__container-center-main {
+   color: #FFF;
+   font-family: Bebas Neue;
+   font-size: 60px;
+   font-weight: 400;
+   letter-spacing: 5.709px;
+   margin-bottom: 21px;
+}
+
+.header__container-center-text {
+   color: white;
+   font-weight: 600;
+   font-size: 16px;
+   margin-bottom: 221px;
+}
+
+.header__container-bottom-text {
+   color: #FFF;
+   font-size: 11px;
+   font-weight: 600;
+   letter-spacing: 3.7px;
+}
+
+/* Coding style for header end */
+
+
+/* Coding style for section__nav start */
+
+.nav {
+   height: 65px;
+   border-bottom: 1px solid #E6E6E6;
+   padding-top: 5px;
+   margin-bottom: 57px;
+}
+
+.nav__container-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav__container-value {
+   display: flex;
+}
+
+.nav__container-value {
+   list-style: none;
+}
+
+.nav__container-contain a {
+   text-decoration: none;
+   color: var(--text__color);
+   text-align: center;
+   font-size: 12px;
+   font-weight: 600;
+   letter-spacing: 1.091px;
+}
+
+.nav__container-contain a:hover {
+   color: var(--light__blue);
+   font-size: 12px;
+   letter-spacing: 1.091px;
+}
+
+.nav__container-contain {
+   margin-right: 40px;
+}
+
+.nav__container-contain:last-child {
+   margin-right: 0;
+}
+
+/* Coding style for section__nav end */
+
+/* Coding styles for main section start */
+
+.main {}
+
+.story__container {
+   margin-bottom: 128px;
+}
+
+.story__main-all {
+   text-align: center;
+}
+
+.story__main-title-text {
+   margin-bottom: 10px;
+}
+
+.story__main-title-line {
+   width: 50px;
+   height: 2px;
+   background-color: var(--light__blue);
+   margin: auto;
+   margin-bottom: 80px;
+}
+
+.story__content {
+   display: flex;
+}
+
+.story__text {
+   margin-right: 80px;
+}
+
+.story__main-title-second-text {
+   color: var(--text__color);
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 0.188px;
+   max-width: 405px;
+   margin-bottom: 30px;
+
+}
+
+span {
+   color: var(--light__blue);
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 0.17px;
+}
+
+.story__main-text {
+   max-width: 405px;
+}
+
+.story__cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 19px;
+}
+
+.story__card_1 {
+   background-image: url(../img/first__card-picture.png);
+   background-repeat: no-repeat;
+   height: 224px;
+   width: 140px;
+}
+
+.story__card_2 {
+   background-image: url(../img/second__card-picture.png);
+   background-repeat: no-repeat;
+   height: 224px;
+   width: 140px;
+}
+
+.story__card_3 {
+   background-image: url(../img/third__card-picture.png);
+   background-repeat: no-repeat;
+   height: 224px;
+   width: 140px;
+}
+
+.story__card-text {
+   color: #FFF;
+   font-size: 24px;
+   font-weight: 800;
+   line-height: 29px;
+   letter-spacing: 0.188px;
+   max-width: 30px;
+   margin-left: 14px;
+   margin-top: 23px;
+}
+
+/* Coding styles for main section start */
