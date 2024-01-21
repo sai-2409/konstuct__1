@@ -453,6 +453,7 @@ span {
    font-weight: 600;
    line-height: 25px;
    letter-spacing: 0.846px;
+   text-transform: uppercase;
 }
 
 .footer__flex-link-block li a:hover {
